@@ -13,6 +13,7 @@ app.UseEndpoints(endpoints =>
         pattern: "{controller=Home}/{action=Index}/{id?}");
 });
 
+//Add to make a static files in your project
 app.UseStaticFiles();
 
 app.Run();
